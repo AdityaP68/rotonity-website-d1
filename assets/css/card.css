@@ -1,0 +1,70 @@
+#mcard1 .card-img{
+    background: url(../images/teammembers/vinay.jpeg);
+    background-size: contain;
+
+}
+#mcard2 .card-img{
+    background: url(../images/teammembers/ameyJ.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+#mcard3 .card-img{
+    background: url(../images/teammembers/Kanishka1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+   
+#mcard4 .card-img{
+    background: url(../images/teammembers/AdityaP4.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+#mcard5 .card-img{
+    background: url(../images/teammembers/Tejas.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+#mcard6 .card-img{
+    background: url(../images/teammembers/riya.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+/* #mcard7 .card-img{
+    background: url(../images/teammembers/riya.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+} */
+#mcard8 .card-img{
+    background: url(../images/teammembers/desai.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+/*-------------------------------------------*/
+
+#p1{
+    background: url(../images/projects/p1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#p2{
+    background: url(../images/projects/p2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#p3{
+    background: url(../images/projects/p3.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#p4{
+    background: url(../images/projects/p4.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}

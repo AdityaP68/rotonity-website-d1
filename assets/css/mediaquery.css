@@ -1,0 +1,75 @@
+#test{
+    display: none;
+    
+}
+
+section.header{
+    
+    overflow: hidden;
+}
+.header ul{
+    font-size: 35px;
+}
+
+.header ul li a{
+    padding: 1rem;
+}
+nav img{
+    width: 12rem;
+}
+
+.header-content .content{
+    display: block;
+    margin: auto;
+    left: 0;
+    width: 70%;
+    height: 40vh;
+
+}
+@media (max-width: 790px) and (max-height: 1030px){
+
+    .header nav ul {
+        display: none;
+    }
+    .intro-content{
+        width: 80%;
+        height: 80vh;
+
+    }
+    .intro-content p {
+        font-size: 1.5rem;
+
+    }
+    .intro-content span{
+        font-size: 3rem;
+    }
+    .about div{
+        margin: 0 0 1.5rem 0;
+        padding: 0;
+    }
+    .about div .rtr-img{
+        display: none;
+    }
+    .about p{
+        margin: 1rem  auto;
+        width: 80%;
+        font-size: 1.2rem;
+        
+    }
+    .showcase-1{
+        flex-direction: column;
+    }
+    .sbox{
+        margin: 0.5rem 0 1.7rem 0;
+    }
+
+}
+@media (max-width: 1100px) and (max-height: 770px){
+    .intro-content{
+        height: 75vh;
+    }
+    .card{
+        margin: 1rem;
+
+    }
+}

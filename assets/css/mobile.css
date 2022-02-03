@@ -1,0 +1,133 @@
+section.header{
+    height: 100vh;
+}
+
+.header nav ul {
+    display: none;
+}
+.header .header-content{
+    width: 90%;
+    margin: auto;
+    height: auto;
+}
+.intro-content{
+    width: 90%;
+    padding: 0;
+    height: 80vh;
+    top: 30px;
+    left: 0px;
+    margin: 1rem auto;
+    text-align: center;
+    padding: 0.4rem;
+}
+.intro-content button{
+    margin: 1rem auto;
+}
+.intro-content span{
+    
+    margin: 0.8rem;
+}
+.intro-content p{
+    padding: 0.1rem;
+    font-size: 0.9rem;
+    margin: 0px;
+}
+.intro-content button{
+    margin: 1rem auto;
+}
+
+.header-content .content p{
+    padding: 1rem;
+    
+}
+.about{
+    margin: 0px;
+    padding: 1rem 0 1rem 0;
+    
+}
+.about .rtr-img{
+    display: none;
+}
+.about div{
+    display: block;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+}
+.about h1{
+    font-size: 2.5rem;
+    margin: 1rem;
+}
+.about p{
+    padding: 0;
+    font-size: 15px;
+    line-height: 1.2rem;
+    margin: 1px auto;
+    width: 320px;
+    
+    
+}
+
+.showcase-container{
+    margin: 0;
+    width: 100%;
+}
+.showcase-1{
+    flex-direction: column;
+}
+.sbox{
+    height: auto;
+    margin: 0px;
+    width: 100%;
+}
+.showcase-2{
+    flex-direction: column;
+    height: auto;
+    padding: 1rem;
+}
+.card-container{
+    flex-direction: column;
+    
+}
+.card{
+    width: 300px;
+    height: 450px;
+}
+
+.card .contact-detail-holder{
+    top: 110px;
+}
+
+.congo-text{
+    padding: 0;
+    margin-top: 1.5rem;
+}
+
+.project-container{
+    flex-direction: column;
+}
+@media (min-height: 670px) and (max-height: 900px){
+    .intro-content p{
+        font-size: 1.1rem;
+    }
+
+}
+
+@media (max-height: 570px){
+    .intro-content span{
+        font-size: 2rem;
+    }
+    .intro-content p{
+        font-size: 0.8rem;
+    }
+    .about p{
+        margin: 2rem 1rem 1rem 1rem;
+        width: auto;
+    }
+    footer{
+        height: auto;
+    }
+    .bruh p{
+        font-size: .9rem;
+    }
+}
